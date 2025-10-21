@@ -68,7 +68,7 @@ Build a responsive React application using JSX and Tailwind CSS that demonstrate
 - Responsive and visually appealing with Tailwind CSS  
 
 **Deployed Link:**  
-👉 [Your Deployed App URL Here]  
+👉 [https://vercel.com/jaqueline-ngwavas-projects/react-js-jsx-and-css-mastering-front-end-development-20231990]  
 
 ---
 
