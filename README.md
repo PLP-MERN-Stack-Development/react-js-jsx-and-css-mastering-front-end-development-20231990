@@ -1,70 +1,87 @@
-# React.js and Tailwind CSS Assignment
+# Week 3: React.js, JSX, and Tailwind CSS – Mastering Front-End Development
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+## 🚀 Objective
+Build a responsive React application using JSX and Tailwind CSS that demonstrates component architecture, state management, hooks usage, and API integration.
 
-## Assignment Overview
+---
+## ⚙️ Task 1: Project Setup (React + Tailwind)
+- Created a new React project using **Vite**
+- Installed and configured **Tailwind CSS**
+- Verified that Tailwind styles load correctly in the app
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+### 🖼️ Screenshot:
+![Task 1 React + Tailwind Setup](./task1-react-tailwind-setup.png)
 
-## Getting Started
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+---
 
-## Files Included
+## 🧱 Task 2: Component Architecture
+- Built reusable components: `Button`, `Card`, `Navbar`, and `Footer`
+- Implemented a shared `Layout` with `Navbar` and `Footer`
+- Used props for customization
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+**Screenshot:**
+![Task 2 Screenshot](./task2-screenshot.png)
 
-## Requirements
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+---
 
-## Project Structure
+## 🧠 Task 3: State Management and Hooks
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+- Implemented a `Counter` component that uses:
+  - **useState** for managing state (count value)
+  - **useEffect** for handling side effects (saving to localStorage)
+  - **Custom Hook (`useLocalStorage`)** for persistent data
+- The counter allows users to:
+  - Increment, Decrement, and Reset values
+  - Retain the count even after refreshing the page
+- Styled the component using Tailwind CSS
 
-## Submission
+### 🖼️ Screenshot:
+![Task 3 - Counter Component](./task3-counter-screenshot.png)
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+---
 
-## Resources
+## 🌐 Task 4: API Integration
+- Fetched data from a public API (e.g., JSONPlaceholder)
+- Displayed data in grid view with loading and error states
+- Added search and pagination
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+**Screenshot:**
+![Task 4 - API Integration](./task4-api-screenshot.png)
+
+---
+
+## 🎨 Task 5: Styling with Tailwind CSS
+- Created a responsive design for all devices
+- Added Tailwind dark mode and animations
+
+**Screenshot:**
+![Task 5 - Dark Mode and Responsive UI](./src/task5-darkmode-screenshot.png)
+
+---
+
+## 🧪 Final Outcome
+- Fully functional React app with component-based architecture  
+- State management and API integration working  
+- Responsive and visually appealing with Tailwind CSS  
+
+**Deployed Link:**  
+👉 [Your Deployed App URL Here]  
+
+---
+
+## ⚙️ Setup Instructions
+To run locally:
+
+```bash
+npm install
+npm run dev
+
+
+
+
+
+
+
